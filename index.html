@@ -2,13 +2,14 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
+<link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="./css/bootstrap.css">
 <div class="container">
-      <div class="main">  
+      <div class="main text-center">  
         <h1 class="text-center">Wikipedia Search Engine </h1>   
         <div class="content">                               
           <form>
-            <input style="cursor: pointer;" type="text" id="search"/>
+            <input style="cursor: pointer;" type="text" class="input " id="search"/>
             <div class="after"></div>           
           </form>   
           <a class="icon-container" href="https://en.wikipedia.org/wiki/Special:Random" target="_blank" style="color: white">
@@ -17,7 +18,8 @@
         </div>                            
       </div>
     </div>
-    <script src="./src/function.js"></script>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/search.js"></script>
 <script src="./renderer.js"></script>
 </body>
 </html> 
